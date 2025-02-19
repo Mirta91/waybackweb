@@ -4,7 +4,7 @@ import flowbitePlugin from "flowbite/plugin";
 export default {
     darkMode: "selector",
     theme: {
-        container: false,
+        container: true,
     },
     plugins: [flowbitePlugin],
 };

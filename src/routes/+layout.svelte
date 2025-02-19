@@ -15,7 +15,7 @@
 
 	<footer>
 		
-			<Button
+			<!-- <Button
 				hasSlot={true}
 				class="flex h-16 w-16 items-center justify-center !rounded-full border border-wb-orange bg-wb-orange text-36 text-white shadow-md hover:opacity-80"
 			>
@@ -25,7 +25,7 @@
 				>
 					+
 				</a>
-			</Button>
+			</Button> -->
 		
 	</footer>
 </div>
@@ -35,34 +35,9 @@
 		display: flex;
 		flex-direction: column;
 		min-height: 100vh;
-	}
-
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 64rem;
 		margin: 0 auto;
-		box-sizing: border-box;
+		background-color: #f5f5f5;
 	}
 
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 12px;
-	}
-
-	footer a {
-		font-weight: bold;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 12px 0;
-		}
-	}
+	
 </style>
