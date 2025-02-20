@@ -6,7 +6,7 @@
 	let { children } = $props();
 </script>
 
-<div class="app font-wayback text-wb-pink">
+<div class="app font-wayback">
 	<Header />
 
 	<main>
