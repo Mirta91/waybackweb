@@ -22,7 +22,7 @@
 		</nav> -->
 	
 		<div class="corner">
-			<a href="https://github.com/sveltejs/kit" >
+			<a href="https://frida.tech/wayback/com.companyname.waybackapp-Signed.apk" >
 				<img src={googlePlaystore} alt="Welcome" class="max-h-[40px]" />
 			</a>
 		</div>
