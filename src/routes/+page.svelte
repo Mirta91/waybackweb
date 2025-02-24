@@ -89,7 +89,7 @@
 
 		<video class="max-w-[200px] 3xl:max-w-[300px]" autoplay loop muted bind:this={videoElement}>
 			<source src={transfersVideo} type="video/mp4">
-			<track kind="captions" src="captions.vtt" srclang="en" label="English">
+			
 			Your browser does not support the video tag.
 		</video>
 	</div>
