@@ -10,7 +10,7 @@
 
 	import { onMount } from 'svelte';
 	import Globe from '$lib/logo/Globe.svelte';
-	import LogoWayback from '$lib/logo/LogoWayback.svelte';
+	import Footer from '$lib/modules/Footer.svelte';
 
 	let videoElement: HTMLVideoElement;
 
@@ -22,7 +22,7 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Wayback</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
@@ -171,16 +171,4 @@
 	</div>
 </div>
 
-<div class="bg-wb-black flex flex-row items-center py-12 w-full">
-	<div class="container px-4 mx-auto h-full text-center flex flex-col items-center">
-		<div class="text-center gap-1 h-full w-[200px] pb-12">
-			<p class="text-white text-lg pb-2">Contact</p>
-			<p class="text-white">Phone:  <a href="tel:+385995242452">+385 99 524 2452</a></p>
-			<p class="text-white">Email:  <a href="mailto:info@transfers.hr">info@transfers.hr</a></p>
-		</div>
-		<div class="flex flex-col items-center justify-center gap-4 h-full w-full">
-			<LogoWayback width={120} fillColor="#ffffff" />
-			<p class="text-white">Copyright © 2025 Wayback®. All rights reserved.</p>
-		</div>
-	</div>
-</div>
+<Footer />
